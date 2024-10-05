@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "nuxt build && cp node_modules/@tomwaterman/scrabble-anagram-lib/dist/scrabble.sqlite3 .vercel/output/server/node_modules/@tomwaterman/scrabble-anagram-lib/dist/scrabble.sqlite3",
+    "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
